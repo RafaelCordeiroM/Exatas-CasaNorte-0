@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="./css/produtos.css">
 </head>
 
-<body onload="next__load(), set__slides()">
-    <div class="global">
+<body onload="set__slides()">
+    <main class="global">
         <div class="start__page">
             <header>
                 <div class="logo">
@@ -33,9 +33,24 @@
             </header>
             <section class="main__page">
                 <!-- Main page -->
-                <div class="main__img"><img id="mbig" src="img/Casa Norte/Casa Norte/MainIndex1.jpg">
+                <div class="slider__main">
+                    <img id="main-slider" src="img/Casa Norte/Casa Norte/MainIndex1.jpg">
+                    <img id="main-next" src="img/Casa Norte/Casa Norte/MainIndex2.jpg">
+                    <div class="slider__controls">
+                        <button> <svg  viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 7H3.83L9.42 1.41L8 0L0 8L8 16L9.41 14.59L3.83 9H16V7Z" fill="#0C5750"/>
+                            </svg> back</button>
+                        <button>next<svg  viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" fill="#0C5750"/>
+                            </svg>
+                            </button>
+                    </div>
                 </div>
-                <div class="img__next"><img id="pBig" src="img/Casa Norte/Casa Norte/MainIndex2.jpg"></div>
+                <div class="main__text">
+                    <h3 id="main-title">Lorem ipsum dolor sit amet consectetur adipisicing </h3>
+                    <div class="line__main"></div>
+                    <p id="main-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus esse delectus blanditiis aut vero. Consequatur odio obcaecati ratione, adipisci illum esse est, repellat provident, ullam illo harum aut necessitatibus optio!</p>
+                </div>
             </section>
             <section class="produtos">
                 <h2>Produtos</h2>
@@ -123,9 +138,9 @@
                         <textarea placeholder="Escreva aqui" name="" id="" cols="30" rows="10"></textarea>
                     </div>
                 </div>
-            </div>
-            <script src="script/index.js"></script>
-            <script src="script/mid_slider.js"></script>
+    </main>
+    <!-- <script src="script/index.js"></script> -->
+    <script src="script/mid_slider.js"></script>
 
 </body>
 
