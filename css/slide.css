@@ -1,0 +1,22 @@
+.main__page {
+    height: 100vh;
+    display: block;
+}
+
+.main__img {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.main__img img {
+    border-radius: 30px;
+    width: 40%;
+    height: 40%;
+}
+
+
+/* next imagem */
+
+#pBig {
+    position: absolute;
+}

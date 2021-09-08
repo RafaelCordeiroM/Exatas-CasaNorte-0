@@ -1,0 +1,85 @@
+    @import url("https://fonts.googleapis.com/css2?family=Acme");
+    @import url("https://fonts.googleapis.com/css2?family=Nunito");
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .start__page {
+        background-image: url('../img/topImg.png');
+        position: absolute;
+        width: 100%;
+        height: 65%;
+    }
+    
+    body {
+        margin: 0;
+        display: block;
+        font-family: Nunito;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 1%;
+    }
+    
+    .logo button {
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        border-style: none;
+        cursor: pointer;
+    }
+    
+    .logo svg {
+        height: 51px;
+        width: 39px;
+        margin-right: 6px;
+    }
+    
+    .logo button {
+        font-family: Acme;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 51px;
+        color: white;
+    }
+    
+    .link__bar button {
+        padding: 0px 0px 0px 40px;
+        background-color: transparent;
+        border-style: none;
+        color: white;
+        cursor: pointer;
+        /* txt style */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 30px;
+    }
+    /* corpo */
+    /* end page */
+    
+    .end__page {
+        height: 100vh;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .end__page h2 {
+        font-size: 60px;
+        font-weight: 100;
+    }
+    
+    .end__page iframe {
+        border-radius: 20px;
+        border-style: none;
+        width: 100%;
+        height: 80%;
+    }
+    /* roda pé do site */
