@@ -7,21 +7,21 @@ var slider_data = [
     {
         txt: "lorem1",
         title: "Produto1",
-        img: "img/Casa Norte/Casa Norte/MoreSoldIndex1.jpg",
+        img: "../Casa Norte/MoreSoldIndex1.jpg",
 
         slider_number: "01"
     },
     {
         txt: "lorem2",
         title: "Produto2",
-        img: "img/Casa Norte/Casa Norte/MoreSoldIndex2.jpg",
+        img: "../Casa Norte/MoreSoldIndex2.jpg",
 
         slider_number: "02"
     },
     {
         txt: "lorem3",
         title: "Produto3",
-        img: "img/Casa Norte/Casa Norte/MoreSoldIndex3.jpg",
+        img: "../Casa Norte/MoreSoldIndex3.jpg",
 
         slider_number: "03"
     }
